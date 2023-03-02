@@ -20,7 +20,6 @@ with st.container():
     st.subheader("Welcome to our Clothing Store!")
     st.title("We have the perfect outfit for you!")
     st.write("[Shop now](http://localhost:8501/Shop)")
-    st.video("/Users/adamtaieb/Desktop/Screen Recording 2023-03-02 at 22.54.04.mp4")
 
 # Section 2
 with st.container():
@@ -60,21 +59,21 @@ with st.container():
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        st.image("https://cdn.pixabay.com/photo/2016/11/29/13/32/attractive-1868750_960_720.jpg", use_column_width=True)
+        st.image("/Users/adamtaieb/Desktop/yo/ayo/dress1.png", use_column_width=True)
         st.write("<h3 style='text-align: center;'>Womens Dress</h3>", unsafe_allow_html=True)
         st.write("<p style='text-align: center;'>$39.99</p>", unsafe_allow_html=True)
         if st.button("Add to Cart 1"):
             st.write("Item 1 added to cart!")
         
     with col2:
-        st.image("https://cdn.pixabay.com/photo/2018/10/29/18/05/woman-3784052_960_720.jpg", use_column_width=True)
+        st.image("/Users/adamtaieb/Desktop/yo/ayo/shirt1.png", use_column_width=True)
         st.write("<h3 style='text-align: center;'>Mens Shirt</h3>", unsafe_allow_html=True)
         st.write("<p style='text-align: center;'>$24.99</p>", unsafe_allow_html=True)
         if st.button("Add to Cart 2"):
             st.write("Item 2 added to cart!")
         
     with col3:
-        st.image("https://cdn.pixabay.com/photo/2016/02/19/11/25/model-1209787_960_720.jpg", use_column_width=True)
+        st.image("/Users/adamtaieb/Desktop/yo/ayo/coat4.png", use_column_width=True)
         st.write("<h3 style='text-align: center;'>Womens Jacket</h3>", unsafe_allow_html=True)
         st.write("<p style='text-align: center;'>$59.99</p>", unsafe_allow_html=True)
         if st.button("Add to Cart 3"):
