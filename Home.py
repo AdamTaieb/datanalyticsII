@@ -59,7 +59,7 @@ with st.container():
     col1, col2, col3 = st.columns(3)
     
     with col1:
-        st.image("/Users/adamtaieb/Desktop/yo/ayo/dress1.png", use_column_width=True)
+        st.image("", use_column_width=True)
         st.write("<h3 style='text-align: center;'>Womens Dress</h3>", unsafe_allow_html=True)
         st.write("<p style='text-align: center;'>$39.99</p>", unsafe_allow_html=True)
         if st.button("Add to Cart 1"):
