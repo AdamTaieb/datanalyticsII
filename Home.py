@@ -20,6 +20,7 @@ with st.container():
     st.subheader("Welcome to our Clothing Store!")
     st.title("We have the perfect outfit for you!")
     st.write("[Shop now](http://localhost:8501/Shop)")
+    st.video("/Users/adamtaieb/Desktop/Screen Recording 2023-03-02 at 22.54.04.mp4")
 
 # Section 2
 with st.container():
